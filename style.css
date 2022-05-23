@@ -26,11 +26,7 @@ overflow: hidden;
 #last{
     float: right;
 }
-header {background-image: url(malpka.png);
-    background-size: cover;
-    background-position: center;
 
-}
 #content {
     background-color: #FFFFFF;
     height: 100%;
@@ -85,4 +81,15 @@ h3 {
 .gallery img:hover {
   filter: grayscale(50%);
   transform:scale(1.3);
+}
+#github {
+  text-align: center;
+}
+#heartbanner {
+    width: 100%;
+  background-image: url(heartbanner.png);
+  height: 100px;
+  background-color: purple;
+  background-position: center;
+}
 }
