@@ -1,3 +1,0 @@
-# strona-informatyka
-
-TODO: 
