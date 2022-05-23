@@ -1,55 +1,53 @@
 h1{font-family: 'VT323', monospace; }
 body{font-family: 'VT323', monospace;
-    background-color: #ffe5fa;}
+background-color: #ffe5fa;}
 .navbar{
-list-style: none;
-background-color: white;
-overflow: hidden;
-
-
+  list-style: none;
+  background-color: white;
+  overflow: hidden;
 }
 .navbar li{
-    float: left;
-    background-color: white;
-    overflow: hidden;
+  float: left;
+  background-color: white;
+  overflow: hidden;
 }
 .navbar li a{
-    text-decoration: none;
-    color: #eaaadd;
-    display: inline-block;
-    padding: 10px
+  text-decoration: none;
+  color: #eaaadd;
+  display: inline-block;
+  padding: 10px
 }
 .navbar li a:hover{
-    background-color: pink;
-    color: violet;
+  background-color: pink;
+  color: violet;
 }
 #last{
-    float: right;
+  float: right;
 }
 
 #content {
-    background-color: #FFFFFF;
-    height: 100%;
-    margin-bottom: 70px;
+  background-color: #FFFFFF;
+  height: 100%;
+  margin-bottom: 70px;
 }
 footer {
-   position:fixed;
-   bottom:0;
-   width:100%;
-   height:60px;
-   }
+ position:fixed;
+ bottom:0;
+ width:100%;
+ height:60px;
+}
 a {
-    color: #F42CBA;
-    font-weight: bold;
+  color: #F42CBA;
+  font-weight: bold;
 }
 a:hover {
-    color: #262626;
+  color: #262626;
 }
 a:visited {
-color: #B15D99;
+  color: #B15D99;
 }
 hr {
-border-top: 3px solid #E06DC4;
+  border-top: 3px solid #E06DC4;
 }
 .center {
   margin-left: auto;
@@ -63,20 +61,18 @@ h3 {
 }
 #bannerimage {
   width: 100%;
-  background-image: url(header.png);
+  background-image: url(image/header.png);
   height: 100px;
   background-color: purple;
   background-position: center;
 }
 .gallery {
   margin: 10px 50px;
-
 }
 .gallery img {
   transition: 1s;
   padding: 15px;
   width: 200px;
-
 }
 .gallery img:hover {
   filter: grayscale(50%);
@@ -86,10 +82,9 @@ h3 {
   text-align: center;
 }
 #heartbanner {
-    width: 100%;
-  background-image: url(heartbanner.png);
+  width: 100%;
+  background-image: url(image/heartbanner.png);
   height: 100px;
   background-color: purple;
   background-position: center;
-}
 }
