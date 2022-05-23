@@ -74,16 +74,13 @@ h3 {
 }
 .gallery {
   margin: 10px 50px;
-  align-items: center;
-  justify-content: center;
 
 }
 .gallery img {
   transition: 1s;
   padding: 15px;
   width: 200px;
-    align-items: center;
-  justify-content: center;
+
 }
 .gallery img:hover {
   filter: grayscale(50%);
